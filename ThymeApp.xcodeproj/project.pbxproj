@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB2CBB32899BE1800289F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBB22899BE1800289F0B /* AppDelegate.swift */; };
+		BDB2CBB52899BE1800289F0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBB42899BE1800289F0B /* SceneDelegate.swift */; };
+		BDB2CBB72899BE1800289F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBB62899BE1800289F0B /* ViewController.swift */; };
+		BDB2CBBA2899BE1800289F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB2CBB82899BE1800289F0B /* Main.storyboard */; };
+		BDB2CBBD2899BE1800289F0B /* ThymeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBBB2899BE1800289F0B /* ThymeApp.xcdatamodeld */; };
+		BDB2CBBF2899BE1A00289F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB2CBBE2899BE1A00289F0B /* Assets.xcassets */; };
+		BDB2CBC22899BE1A00289F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB2CBC02899BE1A00289F0B /* LaunchScreen.storyboard */; };
+		BDB2CBCD2899BE1A00289F0B /* ThymeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBCC2899BE1A00289F0B /* ThymeAppTests.swift */; };
+		BDB2CBD72899BE1A00289F0B /* ThymeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBD62899BE1A00289F0B /* ThymeAppUITests.swift */; };
+		BDB2CBD92899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBD82899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB2CBC92899BE1A00289F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB2CBA72899BE1800289F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB2CBAE2899BE1800289F0B;
+			remoteInfo = ThymeApp;
+		};
+		BDB2CBD32899BE1A00289F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB2CBA72899BE1800289F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB2CBAE2899BE1800289F0B;
+			remoteInfo = ThymeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB2CBAF2899BE1800289F0B /* ThymeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThymeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2CBB22899BE1800289F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB2CBB42899BE1800289F0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDB2CBB62899BE1800289F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDB2CBB92899BE1800289F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB2CBBC2899BE1800289F0B /* ThymeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThymeApp.xcdatamodel; sourceTree = "<group>"; };
+		BDB2CBBE2899BE1A00289F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB2CBC12899BE1A00289F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB2CBC32899BE1A00289F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB2CBC82899BE1A00289F0B /* ThymeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThymeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2CBCC2899BE1A00289F0B /* ThymeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThymeAppTests.swift; sourceTree = "<group>"; };
+		BDB2CBD22899BE1A00289F0B /* ThymeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThymeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2CBD62899BE1A00289F0B /* ThymeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThymeAppUITests.swift; sourceTree = "<group>"; };
+		BDB2CBD82899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThymeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB2CBAC2899BE1800289F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2CBC52899BE1A00289F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2CBCF2899BE1A00289F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB2CBA62899BE1800289F0B = {
+			isa = PBXGroup;
+			children = (
+				BDB2CBB12899BE1800289F0B /* ThymeApp */,
+				BDB2CBCB2899BE1A00289F0B /* ThymeAppTests */,
+				BDB2CBD52899BE1A00289F0B /* ThymeAppUITests */,
+				BDB2CBB02899BE1800289F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB2CBB02899BE1800289F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2CBAF2899BE1800289F0B /* ThymeApp.app */,
+				BDB2CBC82899BE1A00289F0B /* ThymeAppTests.xctest */,
+				BDB2CBD22899BE1A00289F0B /* ThymeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB2CBB12899BE1800289F0B /* ThymeApp */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2CBB22899BE1800289F0B /* AppDelegate.swift */,
+				BDB2CBB42899BE1800289F0B /* SceneDelegate.swift */,
+				BDB2CBB62899BE1800289F0B /* ViewController.swift */,
+				BDB2CBB82899BE1800289F0B /* Main.storyboard */,
+				BDB2CBBE2899BE1A00289F0B /* Assets.xcassets */,
+				BDB2CBC02899BE1A00289F0B /* LaunchScreen.storyboard */,
+				BDB2CBC32899BE1A00289F0B /* Info.plist */,
+				BDB2CBBB2899BE1800289F0B /* ThymeApp.xcdatamodeld */,
+			);
+			path = ThymeApp;
+			sourceTree = "<group>";
+		};
+		BDB2CBCB2899BE1A00289F0B /* ThymeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2CBCC2899BE1A00289F0B /* ThymeAppTests.swift */,
+			);
+			path = ThymeAppTests;
+			sourceTree = "<group>";
+		};
+		BDB2CBD52899BE1A00289F0B /* ThymeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2CBD62899BE1A00289F0B /* ThymeAppUITests.swift */,
+				BDB2CBD82899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift */,
+			);
+			path = ThymeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB2CBAE2899BE1800289F0B /* ThymeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB2CBDC2899BE1A00289F0B /* Build configuration list for PBXNativeTarget "ThymeApp" */;
+			buildPhases = (
+				BDB2CBAB2899BE1800289F0B /* Sources */,
+				BDB2CBAC2899BE1800289F0B /* Frameworks */,
+				BDB2CBAD2899BE1800289F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThymeApp;
+			productName = ThymeApp;
+			productReference = BDB2CBAF2899BE1800289F0B /* ThymeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB2CBC72899BE1A00289F0B /* ThymeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB2CBDF2899BE1A00289F0B /* Build configuration list for PBXNativeTarget "ThymeAppTests" */;
+			buildPhases = (
+				BDB2CBC42899BE1A00289F0B /* Sources */,
+				BDB2CBC52899BE1A00289F0B /* Frameworks */,
+				BDB2CBC62899BE1A00289F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB2CBCA2899BE1A00289F0B /* PBXTargetDependency */,
+			);
+			name = ThymeAppTests;
+			productName = ThymeAppTests;
+			productReference = BDB2CBC82899BE1A00289F0B /* ThymeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB2CBD12899BE1A00289F0B /* ThymeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB2CBE22899BE1A00289F0B /* Build configuration list for PBXNativeTarget "ThymeAppUITests" */;
+			buildPhases = (
+				BDB2CBCE2899BE1A00289F0B /* Sources */,
+				BDB2CBCF2899BE1A00289F0B /* Frameworks */,
+				BDB2CBD02899BE1A00289F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB2CBD42899BE1A00289F0B /* PBXTargetDependency */,
+			);
+			name = ThymeAppUITests;
+			productName = ThymeAppUITests;
+			productReference = BDB2CBD22899BE1A00289F0B /* ThymeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB2CBA72899BE1800289F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BDB2CBAE2899BE1800289F0B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BDB2CBC72899BE1A00289F0B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BDB2CBAE2899BE1800289F0B;
+					};
+					BDB2CBD12899BE1A00289F0B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BDB2CBAE2899BE1800289F0B;
+					};
+				};
+			};
+			buildConfigurationList = BDB2CBAA2899BE1800289F0B /* Build configuration list for PBXProject "ThymeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB2CBA62899BE1800289F0B;
+			productRefGroup = BDB2CBB02899BE1800289F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB2CBAE2899BE1800289F0B /* ThymeApp */,
+				BDB2CBC72899BE1A00289F0B /* ThymeAppTests */,
+				BDB2CBD12899BE1A00289F0B /* ThymeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB2CBAD2899BE1800289F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2CBC22899BE1A00289F0B /* LaunchScreen.storyboard in Resources */,
+				BDB2CBBF2899BE1A00289F0B /* Assets.xcassets in Resources */,
+				BDB2CBBA2899BE1800289F0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2CBC62899BE1A00289F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2CBD02899BE1A00289F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB2CBAB2899BE1800289F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2CBB72899BE1800289F0B /* ViewController.swift in Sources */,
+				BDB2CBBD2899BE1800289F0B /* ThymeApp.xcdatamodeld in Sources */,
+				BDB2CBB32899BE1800289F0B /* AppDelegate.swift in Sources */,
+				BDB2CBB52899BE1800289F0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2CBC42899BE1A00289F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2CBCD2899BE1A00289F0B /* ThymeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2CBCE2899BE1A00289F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB2CBD92899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift in Sources */,
+				BDB2CBD72899BE1A00289F0B /* ThymeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB2CBCA2899BE1A00289F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB2CBAE2899BE1800289F0B /* ThymeApp */;
+			targetProxy = BDB2CBC92899BE1A00289F0B /* PBXContainerItemProxy */;
+		};
+		BDB2CBD42899BE1A00289F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB2CBAE2899BE1800289F0B /* ThymeApp */;
+			targetProxy = BDB2CBD32899BE1A00289F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB2CBB82899BE1800289F0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB2CBB92899BE1800289F0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB2CBC02899BE1A00289F0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB2CBC12899BE1A00289F0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB2CBDA2899BE1A00289F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB2CBDB2899BE1A00289F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB2CBDD2899BE1A00289F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThymeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.ThymeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB2CBDE2899BE1A00289F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThymeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.ThymeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB2CBE02899BE1A00289F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.ThymeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThymeApp.app/ThymeApp";
+			};
+			name = Debug;
+		};
+		BDB2CBE12899BE1A00289F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.ThymeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThymeApp.app/ThymeApp";
+			};
+			name = Release;
+		};
+		BDB2CBE32899BE1A00289F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.ThymeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThymeApp;
+			};
+			name = Debug;
+		};
+		BDB2CBE42899BE1A00289F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.ThymeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThymeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB2CBAA2899BE1800289F0B /* Build configuration list for PBXProject "ThymeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2CBDA2899BE1A00289F0B /* Debug */,
+				BDB2CBDB2899BE1A00289F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB2CBDC2899BE1A00289F0B /* Build configuration list for PBXNativeTarget "ThymeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2CBDD2899BE1A00289F0B /* Debug */,
+				BDB2CBDE2899BE1A00289F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB2CBDF2899BE1A00289F0B /* Build configuration list for PBXNativeTarget "ThymeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2CBE02899BE1A00289F0B /* Debug */,
+				BDB2CBE12899BE1A00289F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB2CBE22899BE1A00289F0B /* Build configuration list for PBXNativeTarget "ThymeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB2CBE32899BE1A00289F0B /* Debug */,
+				BDB2CBE42899BE1A00289F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDB2CBBB2899BE1800289F0B /* ThymeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDB2CBBC2899BE1800289F0B /* ThymeApp.xcdatamodel */,
+			);
+			currentVersion = BDB2CBBC2899BE1800289F0B /* ThymeApp.xcdatamodel */;
+			path = ThymeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDB2CBA72899BE1800289F0B /* Project object */;
+}
