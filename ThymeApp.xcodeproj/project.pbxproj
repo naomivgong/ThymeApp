@@ -17,6 +17,7 @@
 		BDB2CBCD2899BE1A00289F0B /* ThymeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBCC2899BE1A00289F0B /* ThymeAppTests.swift */; };
 		BDB2CBD72899BE1A00289F0B /* ThymeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBD62899BE1A00289F0B /* ThymeAppUITests.swift */; };
 		BDB2CBD92899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBD82899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift */; };
+		BDC5CBC02899D03100B9854B /* hydrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5CBBF2899D03100B9854B /* hydrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BDB2CBD22899BE1A00289F0B /* ThymeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThymeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB2CBD62899BE1A00289F0B /* ThymeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThymeAppUITests.swift; sourceTree = "<group>"; };
 		BDB2CBD82899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThymeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC5CBBF2899D03100B9854B /* hydrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				BDB2CBC02899BE1A00289F0B /* LaunchScreen.storyboard */,
 				BDB2CBC32899BE1A00289F0B /* Info.plist */,
 				BDB2CBBB2899BE1800289F0B /* ThymeApp.xcdatamodeld */,
+				BDC5CBBF2899D03100B9854B /* hydrationViewController.swift */,
 			);
 			path = ThymeApp;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB2CBB72899BE1800289F0B /* ViewController.swift in Sources */,
+				BDC5CBC02899D03100B9854B /* hydrationViewController.swift in Sources */,
 				BDB2CBBD2899BE1800289F0B /* ThymeApp.xcdatamodeld in Sources */,
 				BDB2CBB32899BE1800289F0B /* AppDelegate.swift in Sources */,
 				BDB2CBB52899BE1800289F0B /* SceneDelegate.swift in Sources */,
