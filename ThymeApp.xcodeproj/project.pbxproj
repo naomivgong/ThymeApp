@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2354A106289A272300EF9CAE /* MARIGOLD.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2354A105289A272300EF9CAE /* MARIGOLD.otf */; };
 		BDB2CBB32899BE1800289F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBB22899BE1800289F0B /* AppDelegate.swift */; };
 		BDB2CBB52899BE1800289F0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBB42899BE1800289F0B /* SceneDelegate.swift */; };
 		BDB2CBB72899BE1800289F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBB62899BE1800289F0B /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2354A105289A272300EF9CAE /* MARIGOLD.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MARIGOLD.otf; path = ../../Downloads/Marigold/MARIGOLD.otf; sourceTree = "<group>"; };
 		BDB2CBAF2899BE1800289F0B /* ThymeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThymeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB2CBB22899BE1800289F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB2CBB42899BE1800289F0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		BDB2CBA62899BE1800289F0B = {
 			isa = PBXGroup;
 			children = (
+				2354A105289A272300EF9CAE /* MARIGOLD.otf */,
 				BDB2CBB12899BE1800289F0B /* ThymeApp */,
 				BDB2CBCB2899BE1A00289F0B /* ThymeAppTests */,
 				BDB2CBD52899BE1A00289F0B /* ThymeAppUITests */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2354A106289A272300EF9CAE /* MARIGOLD.otf in Resources */,
 				BDB2CBC22899BE1A00289F0B /* LaunchScreen.storyboard in Resources */,
 				BDB2CBBF2899BE1A00289F0B /* Assets.xcassets in Resources */,
 				BDB2CBBA2899BE1800289F0B /* Main.storyboard in Resources */,
