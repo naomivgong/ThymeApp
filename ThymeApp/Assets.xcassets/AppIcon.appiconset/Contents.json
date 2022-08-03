@@ -1,41 +1,49 @@
 {
   "images" : [
     {
+      "filename" : "Copy of Thyme App Icons (40 × 40 px) (1).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "Copy of Thyme App Icons (60 × 60 px).png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "Copy of Thyme App Icons (58 × 58 px).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "Copy of Thyme App Icons (87 × 87 px).png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "Copy of Thyme App Icons (80 × 80 px).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "Copy of Thyme App Icons.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "Copy of Thyme App Icons-1.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "Copy of Thyme App Icons (1).png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -46,6 +54,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "Copy of Thyme App Icons (76 × 76 px) (40 × 40 px).png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
@@ -56,36 +65,43 @@
       "size" : "29x29"
     },
     {
+      "filename" : "Copy of Thyme App Icons (80 × 80 px) (58 × 58 px).png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "Copy of Thyme App Icons (40 × 40 px) (2).png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "40x40"
     },
     {
+      "filename" : "Copy of Thyme App Icons (80 × 80 px) (1).png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "Copy of Thyme App Icons (76 × 76 px).png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
+      "filename" : "Copy of Thyme App Icons (152 × 152 px).png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "Copy of Thyme App Icons (167 × 167 px).png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "Copy of Thyme App Icons (1024 × 1024 px).png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"

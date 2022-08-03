@@ -27,7 +27,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="MOOD MONITOR">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="MARIGOLDRegular"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -46,7 +46,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="TO-DO LIST">
                                             <attributes>
-                                                <font key="NSFont" size="19" name="MARIGOLDRegular"/>
+                                                <font key="NSFont" metaFont="system" size="19"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -65,7 +65,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="SLEEP TRACKER">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="MARIGOLDRegular"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -80,7 +80,7 @@
                                     <fragment content="THYME">
                                         <attributes>
                                             <color key="NSColor" red="0.32839894289999999" green="0.47223144769999997" blue="0.36468520760000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="35" name="MARIGOLDRegular"/>
+                                            <font key="NSFont" metaFont="system" size="35"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -94,7 +94,7 @@
                                     <fragment content="a time for wellness">
                                         <attributes>
                                             <color key="NSColor" red="0.99774163961410522" green="0.99774163961410522" blue="0.99774175882339478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="MARIGOLDRegular"/>
+                                            <font key="NSFont" metaFont="system" size="20"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -112,7 +112,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="HYDRATION TRACKER">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="MARIGOLDRegular"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -148,7 +148,7 @@
                                     <fragment content="How much do you weigh?">
                                         <attributes>
                                             <color key="NSColor" red="0.059230871498584747" green="0.19591456651687622" blue="0.11167637258768082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name="MARIGOLDRegular"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -163,7 +163,7 @@
                                     <fragment content="How long you work out in a minute? (ex. 30)">
                                         <attributes>
                                             <color key="NSColor" red="0.057161830365657806" green="0.17784541845321655" blue="0.095528580248355865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="14" name="MARIGOLDRegular"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
