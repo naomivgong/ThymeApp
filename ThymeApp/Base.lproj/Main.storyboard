@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v5C-f5-UHw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v5C-f5-UHw">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,6 +34,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" red="0.082287691533565521" green="0.33279901742935181" blue="0.19133675098419189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="0ur-zq-DBw" kind="show" id="rqy-te-S5y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xV9-8H-Jqf">
                                 <rect key="frame" x="26" y="651" width="363" height="59"/>
@@ -133,6 +136,364 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="84.375"/>
         </scene>
+        <!--MoodQ1 View Controller-->
+        <scene sceneID="ghY-b8-WOD">
+            <objects>
+                <viewController id="Lp3-4b-zO3" customClass="moodQ1ViewController" customModule="ThymeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3g4-KB-pC1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Happiness Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myf-dS-t0b">
+                                <rect key="frame" x="140" y="130" width="134" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxw-et-ba7">
+                                <rect key="frame" x="102" y="203" width="164" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I HATE TODAY"/>
+                                <connections>
+                                    <action selector="ihatethis:" destination="Lp3-4b-zO3" eventType="touchUpInside" id="Kmu-RL-MIn"/>
+                                    <segue destination="ual-0Z-ZDZ" kind="show" id="Q7f-t9-hSp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nDT-E2-zJC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B4u-HJ-5zD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dq6-GI-aZe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-434.78260869565219" y="1157.8125"/>
+        </scene>
+        <!--MoodQ2 View Controller-->
+        <scene sceneID="ct2-YF-FdZ">
+            <objects>
+                <viewController id="ual-0Z-ZDZ" customClass="moodQ2ViewController" customModule="ThymeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ukh-bt-JTX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZT-Uc-eWe">
+                                <rect key="frame" x="124" y="88" width="166" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Stress Rating ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="28"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOb-68-iVv">
+                                <rect key="frame" x="88" y="224" width="238" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Im SUPERRR stressed - 5"/>
+                                <connections>
+                                    <action selector="stressRate5:" destination="ual-0Z-ZDZ" eventType="touchUpInside" id="caT-wF-5zm"/>
+                                    <segue destination="sPy-iU-xJa" kind="show" id="9qF-Br-I69"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixi-5C-Alq">
+                                <rect key="frame" x="107" y="301" width="202" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="There's a lot on my mind- 4"/>
+                                <connections>
+                                    <action selector="stressRate4:" destination="ual-0Z-ZDZ" eventType="touchUpInside" id="U0Y-bA-jbh"/>
+                                    <segue destination="sPy-iU-xJa" kind="show" id="8Ok-WD-WY9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsB-ph-dmX">
+                                <rect key="frame" x="100" y="387" width="215" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I'm feeling ok. Handling it. - 3"/>
+                                <connections>
+                                    <action selector="stressRate3:" destination="ual-0Z-ZDZ" eventType="touchUpInside" id="i2h-yr-IEd"/>
+                                    <segue destination="sPy-iU-xJa" kind="show" id="2bp-C5-gtt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycn-8z-2Na">
+                                <rect key="frame" x="75" y="468" width="265" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Things are going fine. I feel sound - 2"/>
+                                <connections>
+                                    <action selector="stressRate2:" destination="ual-0Z-ZDZ" eventType="touchUpInside" id="049-uX-ZvM"/>
+                                    <segue destination="sPy-iU-xJa" kind="show" id="iki-WP-7cv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQK-X7-BAx">
+                                <rect key="frame" x="95" y="548" width="226" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Not stressed at all -- Chillin' - 1"/>
+                                <connections>
+                                    <action selector="rate1Stress:" destination="ual-0Z-ZDZ" eventType="touchUpInside" id="P3w-zd-9OZ"/>
+                                    <action selector="stressRate1:" destination="ual-0Z-ZDZ" eventType="touchUpInside" id="SWj-Fk-mJS"/>
+                                    <segue destination="sPy-iU-xJa" kind="show" id="mLy-WM-git"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mrN-41-gVK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5QL-ve-puR"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5As-1E-SQ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257.97101449275362" y="1435.7142857142856"/>
+        </scene>
+        <!--MoodQ3 View Controller-->
+        <scene sceneID="nRk-83-QgJ">
+            <objects>
+                <viewController id="sPy-iU-xJa" customClass="moodQ3ViewController" customModule="ThymeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Kz-D4-mVh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auR-Kb-x0U">
+                                <rect key="frame" x="95" y="77" width="224" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Excitement Rating ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="28"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5z-Wr-BR7">
+                                <rect key="frame" x="71" y="208" width="272" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Super excited for whats too come!! - 5"/>
+                                <connections>
+                                    <action selector="exciteRate5:" destination="sPy-iU-xJa" eventType="touchUpInside" id="rWG-Mj-aBR"/>
+                                    <segue destination="6PS-n4-sCk" kind="show" id="bSp-0h-MDh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6l-Ge-L2c">
+                                <rect key="frame" x="86" y="280" width="242" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I'm excited, but there's nerves - 4"/>
+                                <connections>
+                                    <action selector="exciteRate4:" destination="sPy-iU-xJa" eventType="touchUpInside" id="5VD-AP-zBX"/>
+                                    <segue destination="6PS-n4-sCk" kind="show" id="txk-A5-6bB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ush-mh-SdE">
+                                <rect key="frame" x="97" y="361" width="211" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I feel neutral about my future"/>
+                                <connections>
+                                    <action selector="exciteRate3:" destination="sPy-iU-xJa" eventType="touchUpInside" id="TNe-Bi-JMo"/>
+                                    <segue destination="6PS-n4-sCk" kind="show" id="DOb-QT-6y9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPA-8T-ef3">
+                                <rect key="frame" x="68" y="433" width="269" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Not excited. I don't like new things - 2"/>
+                                <connections>
+                                    <action selector="exciteRate2:" destination="sPy-iU-xJa" eventType="touchUpInside" id="jLM-4A-8RF"/>
+                                    <segue destination="6PS-n4-sCk" kind="show" id="dqu-rr-W8U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xv-cg-WtO">
+                                <rect key="frame" x="83" y="515" width="239" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NOPE NOPE. I like the present - 1"/>
+                                <connections>
+                                    <action selector="exciteRate1:" destination="sPy-iU-xJa" eventType="touchUpInside" id="SZy-qw-qSN"/>
+                                    <segue destination="6PS-n4-sCk" kind="show" id="ifC-Ps-ekg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rOu-HY-oIO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mkF-CA-AG6"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YwU-bB-m2i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1053.6231884057972" y="1435.7142857142856"/>
+        </scene>
+        <!--MoodQ4 View Controller-->
+        <scene sceneID="bvc-Zv-LGE">
+            <objects>
+                <viewController id="6PS-n4-sCk" customClass="moodQ4ViewController" customModule="ThymeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wJI-x0-8dd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyJ-Z1-H8v">
+                                <rect key="frame" x="126" y="73" width="162" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Worry Rating ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="28"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0J-sg-1hj">
+                                <rect key="frame" x="75" y="192" width="265" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I'm worried and anxious. Can't focus on anything else - 5"/>
+                                <connections>
+                                    <action selector="worryRate5:" destination="6PS-n4-sCk" eventType="touchUpInside" id="GyT-dM-Xzw"/>
+                                    <segue destination="7Vb-G3-xHB" kind="show" id="120-dk-GrS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXW-1D-jnF">
+                                <rect key="frame" x="80" y="277" width="254" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="My heart is thumping and I feel the need to cry - 4"/>
+                                <connections>
+                                    <action selector="worryRate4:" destination="6PS-n4-sCk" eventType="touchUpInside" id="ph5-6p-Btv"/>
+                                    <segue destination="7Vb-G3-xHB" kind="show" id="QC1-ON-yqa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfK-YH-4L4">
+                                <rect key="frame" x="112" y="356" width="192" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I'm ok. I am managing  - 3"/>
+                                <connections>
+                                    <action selector="worryRate3:" destination="6PS-n4-sCk" eventType="touchUpInside" id="D2U-6e-wzv"/>
+                                    <segue destination="7Vb-G3-xHB" kind="show" id="AtM-nY-cbR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caj-6w-nsi">
+                                <rect key="frame" x="86" y="411" width="248" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I'm not that worried. Just living in the present - 2"/>
+                                <connections>
+                                    <action selector="worryRate2:" destination="6PS-n4-sCk" eventType="touchUpInside" id="lF6-Za-s8z"/>
+                                    <segue destination="7Vb-G3-xHB" kind="show" id="1vV-k8-c5m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkL-pA-NUk">
+                                <rect key="frame" x="142" y="489" width="131" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I live carefree - 1"/>
+                                <connections>
+                                    <action selector="worryRate1:" destination="6PS-n4-sCk" eventType="touchUpInside" id="Xou-Zw-xLM"/>
+                                    <segue destination="7Vb-G3-xHB" kind="show" id="CAl-xr-tOX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BpN-PZ-ktF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T5D-Qr-dhJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBX-xn-bDH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1853.6231884057972" y="1435.7142857142856"/>
+        </scene>
+        <!--Mood Records View Controller-->
+        <scene sceneID="Pw6-R7-ltS">
+            <objects>
+                <viewController id="7Vb-G3-xHB" customClass="moodRecordsViewController" customModule="ThymeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hSC-XP-1Qi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZLV-il-nYX">
+                                <rect key="frame" x="55" y="252" width="309" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="Vd7-y5-mKf">
+                                        <rect key="frame" x="0.0" y="44.5" width="309" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vd7-y5-mKf" id="cKW-wa-8i3">
+                                            <rect key="frame" x="0.0" y="0.0" width="309" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Km7-eY-oRq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zM4-de-f5B"/>
+                    <connections>
+                        <outlet property="tableView" destination="ZLV-il-nYX" id="RO1-xh-LNW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3cb-VU-xXN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2811.594202898551" y="1435.7142857142856"/>
+        </scene>
+        <!--Mood Monitor-->
+        <scene sceneID="idt-Xr-4Z1">
+            <objects>
+                <viewController id="0ur-zq-DBw" customClass="moodViewController" customModule="ThymeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yeL-4n-dbC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c66-T3-b3k">
+                                <rect key="frame" x="50" y="485" width="314" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zn-PJ-qHd">
+                                <rect key="frame" x="50" y="88" width="324" height="245"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">It is important to monitor our moods.  We may be happy one day, but sad the next.   By keeping track of our moods, we ensure that we do not have chronic negative feelings of helplessness.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWI-57-TP5">
+                                <rect key="frame" x="85" y="352" width="236" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.90044140490000002" blue="0.89239893159999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start "/>
+                                <connections>
+                                    <action selector="entryCount:" destination="0ur-zq-DBw" eventType="touchUpInside" id="r55-8e-WSo"/>
+                                    <segue destination="Lp3-4b-zO3" kind="show" id="wdj-gO-er0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AtF-iT-jGc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mood Monitor" id="msB-eo-QlT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DAN-94-OHN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="736.60714285714278"/>
+        </scene>
         <!--HYDRATION TRACKER-->
         <scene sceneID="815-hQ-YDv">
             <objects>
@@ -199,7 +560,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0rD-XJ-bQ4">
-                                <rect key="frame" x="27" y="294" width="361" height="469"/>
+                                <rect key="frame" x="27" y="294" width="361" height="427"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97215145830000005" green="0.96572774650000004" blue="0.90586632489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="sectionIndexColor" red="0.97215145830000005" green="0.96572774650000004" blue="0.90586632489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -258,9 +619,17 @@
             <point key="canvasLocation" x="18.840579710144929" y="84.375"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="120-dk-GrS"/>
+        <segue reference="DOb-QT-6y9"/>
+        <segue reference="9qF-Br-I69"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

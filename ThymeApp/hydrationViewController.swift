@@ -43,8 +43,9 @@ class hydrationViewController: UIViewController, UITableViewDataSource, UITableV
             let workout = (workout as NSString).integerValue
             let waterNeeded2 = workout * 12/30
             totalWaterNeed = waterNeeded1 + waterNeeded2
-            display.text = "You need \(totalWaterNeed) per day"
+            display.text = "You need \(totalWaterNeed) ounces of water per day"
             waterEachInterval = totalWaterNeed/(tableViewData.count)
+            tableView.reloadData()
             }
         }
         else{
@@ -64,7 +65,7 @@ class hydrationViewController: UIViewController, UITableViewDataSource, UITableV
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         
-        cell.textLabel?.text = "\(self.tableViewData[indexPath.row]) should finish  \(waterEachInterval)"
+        cell.textLabel?.text = "\(self.tableViewData[indexPath.row]) should finish \(waterEachInterval) ounces"
         return cell
         }
 
