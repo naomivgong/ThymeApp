@@ -34,7 +34,8 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hcF-4S-FyT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196079999999" green="0.44705882349999998" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="NLc-r0-sRy" firstAttribute="top" secondItem="msg-yl-9fa" secondAttribute="bottom" constant="124" id="SfG-rR-lNl"/>
                             <constraint firstItem="NLc-r0-sRy" firstAttribute="centerX" secondItem="GjL-eP-5rF" secondAttribute="centerX" id="Xa7-Mr-50n"/>
@@ -59,6 +60,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="separatorColor" red="0.67450980390000004" green="0.73725490199999999" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.67450980390000004" green="0.73725490199999999" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="rcZ-3k-GpI">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -131,7 +135,8 @@
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O4T-jP-MX6"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196078431371" green="0.44705882352941173" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="B9O-rM-Nd3" firstAttribute="centerX" secondItem="GFs-0h-b4v" secondAttribute="centerX" id="6Lk-ow-zaN"/>
                             <constraint firstItem="Qvl-0O-51V" firstAttribute="leading" secondItem="O4T-jP-MX6" secondAttribute="leading" constant="59" id="Chc-Uy-xrS"/>
@@ -228,7 +233,7 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doE-zA-Nop">
-                                <rect key="frame" x="141" y="67" width="133" height="63"/>
+                                <rect key="frame" x="148.5" y="75" width="117" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="THYME">
@@ -242,7 +247,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fej-M8-AOX">
-                                <rect key="frame" x="84" y="122" width="246" height="24"/>
+                                <rect key="frame" x="126" y="122" width="162" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="a time for wellness">
@@ -261,7 +266,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.97216743230000002" green="0.96566230060000002" blue="0.9097889066" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.94509803921568625" green="0.92941176470588238" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <attributedString key="attributedTitle">
                                         <fragment content="HYDRATION TRACKER">
@@ -270,16 +275,20 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" red="0.082287691533565521" green="0.33279901742935181" blue="0.19133675098419189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" red="0.082352941176470587" green="0.33333333333333331" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="ni1-6A-dih" kind="show" id="zfX-Gv-Xgf"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2022-08-01_at_10.19.00_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Qmq-0l-ie6">
+                                <rect key="frame" x="93" y="154" width="228" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.47875469923019409" green="0.6387208104133606" blue="0.092168964445590973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196078431371" green="0.44705882352941173" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="4nR-VL-37b"/>
                 </viewController>
@@ -314,7 +323,8 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nDT-E2-zJC"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196079999999" green="0.44705882349999998" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="B4u-HJ-5zD"/>
                 </viewController>
@@ -396,7 +406,8 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mrN-41-gVK"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196079999999" green="0.44705882349999998" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="5QL-ve-puR"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -478,7 +489,8 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rOu-HY-oIO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196079999999" green="0.44705882349999998" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="mkF-CA-AG6"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -560,7 +572,8 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BpN-PZ-ktF"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196079999999" green="0.44705882349999998" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="T5D-Qr-dhJ"/>
                 </viewController>
@@ -593,7 +606,8 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Km7-eY-oRq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196079999999" green="0.44705882349999998" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="zM4-de-f5B"/>
                     <connections>
@@ -637,7 +651,8 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AtF-iT-jGc"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196079999999" green="0.44705882349999998" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Mood Monitor" id="msB-eo-QlT"/>
                 </viewController>
@@ -736,8 +751,8 @@
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gao-yC-G5v"/>
-                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.082287691533565521" green="0.33279901742935181" blue="0.19133675098419189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.25490196078431371" green="0.44705882352941173" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="HYDRATION TRACKER" largeTitleDisplayMode="always" id="BVi-C9-pg7"/>
                     <connections>
@@ -792,9 +807,10 @@
         <segue reference="120-dk-GrS"/>
         <segue reference="DOb-QT-6y9"/>
         <segue reference="9qF-Br-I69"/>
-        <segue reference="1Mh-MF-iOH"/>
+        <segue reference="CSV-A7-5ed"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Screen_Shot_2022-08-01_at_10.19.00_AM-removebg-preview" width="498" height="501"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
