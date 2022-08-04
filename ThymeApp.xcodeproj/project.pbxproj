@@ -18,6 +18,7 @@
 		BDB2CBCD2899BE1A00289F0B /* ThymeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBCC2899BE1A00289F0B /* ThymeAppTests.swift */; };
 		BDB2CBD72899BE1A00289F0B /* ThymeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBD62899BE1A00289F0B /* ThymeAppUITests.swift */; };
 		BDB2CBD92899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2CBD82899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift */; };
+		BDB77FAD289C30E600D9D016 /* sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB77FAC289C30E600D9D016 /* sleepViewController.swift */; };
 		BDC5CBC02899D03100B9854B /* hydrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5CBBF2899D03100B9854B /* hydrationViewController.swift */; };
 		BDC5CBC2289ACFA900B9854B /* moodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5CBC1289ACFA900B9854B /* moodViewController.swift */; };
 		BDC5CBC6289AE84700B9854B /* moodQ2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5CBC5289AE84700B9854B /* moodQ2ViewController.swift */; };
@@ -63,6 +64,7 @@
 		BDB2CBD22899BE1A00289F0B /* ThymeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThymeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB2CBD62899BE1A00289F0B /* ThymeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThymeAppUITests.swift; sourceTree = "<group>"; };
 		BDB2CBD82899BE1A00289F0B /* ThymeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThymeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDB77FAC289C30E600D9D016 /* sleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepViewController.swift; sourceTree = "<group>"; };
 		BDC5CBBF2899D03100B9854B /* hydrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydrationViewController.swift; sourceTree = "<group>"; };
 		BDC5CBC1289ACFA900B9854B /* moodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodViewController.swift; sourceTree = "<group>"; };
 		BDC5CBC5289AE84700B9854B /* moodQ2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodQ2ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				BDC5CBC7289AF3C400B9854B /* moodQ3ViewController.swift */,
 				BDC5CBC9289B050000B9854B /* moodQ4ViewController.swift */,
 				BDC5CBCB289B062300B9854B /* moodRecordsViewController.swift */,
+				BDB77FAC289C30E600D9D016 /* sleepViewController.swift */,
 			);
 			path = ThymeApp;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				BDC5CBD2289B1C5500B9854B /* moodQ1ViewController.swift in Sources */,
 				BDC5CBCC289B062300B9854B /* moodRecordsViewController.swift in Sources */,
 				BDC5CBCA289B050000B9854B /* moodQ4ViewController.swift in Sources */,
+				BDB77FAD289C30E600D9D016 /* sleepViewController.swift in Sources */,
 				BDC5CBC6289AE84700B9854B /* moodQ2ViewController.swift in Sources */,
 				BDFA31D2289B92A2000C9BAF /* ToDo.swift in Sources */,
 				BDB2CBB52899BE1800289F0B /* SceneDelegate.swift in Sources */,

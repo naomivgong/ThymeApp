@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v5C-f5-UHw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v5C-f5-UHw">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -231,6 +231,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" red="0.082287691533565521" green="0.33279901742935181" blue="0.19133675098419189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4tQ-uP-MHy" kind="show" id="MCz-w1-HhP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doE-zA-Nop">
                                 <rect key="frame" x="148.5" y="75" width="117" height="42"/>
@@ -294,7 +297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.98550724637687" y="84.375"/>
+            <point key="canvasLocation" x="929" y="84"/>
         </scene>
         <!--MoodQ1 View Controller-->
         <scene sceneID="ghY-b8-WOD">
@@ -311,14 +314,54 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxw-et-ba7">
-                                <rect key="frame" x="102" y="203" width="164" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2P-86-ZO3">
+                                <rect key="frame" x="143" y="207" width="129" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="I HATE TODAY"/>
+                                <buttonConfiguration key="configuration" style="plain" title="I am ELATED - 5"/>
                                 <connections>
-                                    <action selector="ihatethis:" destination="Lp3-4b-zO3" eventType="touchUpInside" id="Kmu-RL-MIn"/>
-                                    <segue destination="ual-0Z-ZDZ" kind="show" id="Q7f-t9-hSp"/>
+                                    <action selector="elated:" destination="Lp3-4b-zO3" eventType="touchUpInside" id="0YN-rJ-hdx"/>
+                                    <segue destination="ual-0Z-ZDZ" kind="show" id="S8k-zq-MDQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVh-f2-ose">
+                                <rect key="frame" x="87" y="285" width="241" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="The day has been pretty great - 4"/>
+                                <connections>
+                                    <action selector="prettygood:" destination="Lp3-4b-zO3" eventType="touchUpInside" id="Kgp-En-anG"/>
+                                    <segue destination="ual-0Z-ZDZ" kind="show" id="cjw-4m-IHf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ta-H9-imE">
+                                <rect key="frame" x="116" y="380" width="182" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Neither happy or sad - 3"/>
+                                <connections>
+                                    <action selector="neutral:" destination="Lp3-4b-zO3" eventType="touchUpInside" id="qQJ-tm-30t"/>
+                                    <segue destination="ual-0Z-ZDZ" kind="show" id="zva-x5-sDg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l88-nr-CSQ">
+                                <rect key="frame" x="112" y="477" width="192" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Not doing the greatest - 2"/>
+                                <connections>
+                                    <action selector="notGreatest:" destination="Lp3-4b-zO3" eventType="touchUpInside" id="ukz-mj-Cfr"/>
+                                    <segue destination="ual-0Z-ZDZ" kind="show" id="95I-ks-dQj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXh-c9-CFV">
+                                <rect key="frame" x="94" y="568" width="229" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="This is one of the worst days - 1"/>
+                                <connections>
+                                    <action selector="worst:" destination="Lp3-4b-zO3" eventType="touchUpInside" id="9Ff-Vw-CIJ"/>
+                                    <segue destination="ual-0Z-ZDZ" kind="show" id="nWr-jp-ZlX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -590,7 +633,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZLV-il-nYX">
-                                <rect key="frame" x="55" y="252" width="309" height="343"/>
+                                <rect key="frame" x="60" y="228" width="309" height="343"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -604,6 +647,30 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                   " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Di-0Z-ffN">
+                                <rect key="frame" x="95" y="637" width="229" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entries " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mph-d7-5YK">
+                                <rect key="frame" x="95" y="148" width="238" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY1-Nf-eUE">
+                                <rect key="frame" x="139" y="105" width="141" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Log another"/>
+                                <connections>
+                                    <action selector="goHome:" destination="7Vb-G3-xHB" eventType="touchUpInside" id="kra-lU-oSO"/>
+                                    <segue destination="0ur-zq-DBw" kind="show" id="ZCE-Of-h1a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Km7-eY-oRq"/>
                         <color key="backgroundColor" red="0.67450980392156867" green="0.73725490196078436" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
@@ -611,6 +678,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="zM4-de-f5B"/>
                     <connections>
+                        <outlet property="outputLabel" destination="9Di-0Z-ffN" id="KR1-rk-rrj"/>
                         <outlet property="tableView" destination="ZLV-il-nYX" id="RO1-xh-LNW"/>
                     </connections>
                 </viewController>
@@ -766,6 +834,22 @@
             </objects>
             <point key="canvasLocation" x="1589.8550724637682" y="83.705357142857139"/>
         </scene>
+        <!--Sleep View Controller-->
+        <scene sceneID="09a-D9-ceP">
+            <objects>
+                <viewController id="4tQ-uP-MHy" customClass="sleepViewController" customModule="ThymeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="emZ-nT-ie0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="azv-vG-7Hb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jUy-Rv-KPW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9xf-wu-tjY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2443" y="480"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="nrC-Oy-FUG">
             <objects>
@@ -804,9 +888,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="rqy-te-S5y"/>
         <segue reference="120-dk-GrS"/>
         <segue reference="DOb-QT-6y9"/>
         <segue reference="9qF-Br-I69"/>
+        <segue reference="cjw-4m-IHf"/>
         <segue reference="CSV-A7-5ed"/>
     </inferredMetricsTieBreakers>
     <resources>

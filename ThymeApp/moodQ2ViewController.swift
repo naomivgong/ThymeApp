@@ -14,6 +14,10 @@ class moodQ2ViewController: UIViewController {
     var worryRating = 0;
     var excitementRating = 0;
     var entry = 0;
+    var newEntry = true
+    var entries = [String]()
+    var scores = [Int]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +56,10 @@ class moodQ2ViewController: UIViewController {
         destinationVC.worryRating = worryRating
         destinationVC.excitementRating = excitementRating
         destinationVC.entry = entry
+        destinationVC.newEntry = newEntry
+        destinationVC.scores = scores
+        destinationVC.entries = entries
+
     
     }
     

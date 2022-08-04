@@ -12,6 +12,8 @@ class moodRecordsViewController: UIViewController, UITableViewDataSource, UITabl
     
     @IBOutlet weak var tableView: UITableView!
     
+    //whether or not a new entry is being input
+    var newEntry = true
     var happinessRating = 0;
     var stressRating = 0;
     var worryRating = 0;
@@ -19,10 +21,14 @@ class moodRecordsViewController: UIViewController, UITableViewDataSource, UITabl
     var entry = 0
     
     var netScore = 0
+    var average = 0.0
+    var sum = 0.0
     
     var entries = [String]()
+    var scores = [Int]()
     
-
+    @IBOutlet weak var outputLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,9 +40,35 @@ class moodRecordsViewController: UIViewController, UITableViewDataSource, UITabl
         let negScore = worryRating + stressRating
         netScore = posScore - negScore
         
-        entries.append("entry \(entry) \(netScore)")
+        scores.append(netScore)
+        for score in scores{
+            sum += Double(score)
+            average = sum/Double(scores.count)
+        }
+        if (average < 0){
+            outputLabel.text = "These moods may be concerning. We recommend you seek help from friends, family, or therapy"
+        }
+        else if (average > 1 && average <= 3 ){
+            outputLabel.text = "There are minor concerns with your mood. Keep an optimistic attitude"
+        }
+        else{
+            outputLabel.text = "We are glad you are feeling well"
+        }
+        entries.append("entry \(entry) score is \(netScore)")
+        
+        tableView.reloadData()
         
     }
+    
+    @IBAction func goHome(_ sender: Any) {
+        newEntry = false
+        happinessRating = 0;
+        stressRating = 0;
+        worryRating = 0;
+        excitementRating = 0;
+    }
+    
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
@@ -51,9 +83,20 @@ class moodRecordsViewController: UIViewController, UITableViewDataSource, UITabl
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! moodViewController
+        
+        destinationVC.happinessRating = happinessRating
+        destinationVC.stressRating = stressRating
+        destinationVC.worryRating = worryRating
+        destinationVC.excitementRating = excitementRating
+        destinationVC.entry = entry
+        destinationVC.newEntry = newEntry
+        destinationVC.scores = scores
+        destinationVC.entries = entries
+    }
     
-    
-    
+}
 
     /*
     // MARK: - Navigation
@@ -65,4 +108,3 @@ class moodRecordsViewController: UIViewController, UITableViewDataSource, UITabl
     }
     */
 
-}
