@@ -29,26 +29,26 @@ class sleepViewController: UIViewController {
            var intAge = (age as NSString).integerValue
             if (intAge >= 6 && intAge <= 12){
                 if (intLength < 9){
-                    sleepDebt.text = "This child or tween needs sleep"
+                    sleepDebt.text = "Not enough sleep! Kids ages 5 to 12 need 9 to 12 hours of sleep."
                 }
                 else{
-                    sleepDebt.text = "Good Job! You are getting enough sleep"
+                    sleepDebt.text = "Good job! You are getting enough sleep."
                 }
             }
             if (intAge >= 13 && intAge <= 18){
                 if (intLength < 8){
-                    sleepDebt.text = "Highschoolers need more sleep than that"
+                    sleepDebt.text = "Not enough sleep! Kids ages 13 to 18 need 8 to 10 hours of sleep."
                 }
                 else{
-                    sleepDebt.text = "Good! Great to know you are managing highschool fine"
+                    sleepDebt.text = "Good job! You are getting enough sleep."
                 }
             }
             if (intAge >= 18){
                 if (intLength < 7){
-                    sleepDebt.text = "The lack of sleep can kill you"
+                    sleepDebt.text = "Not enough sleep! Adults need 7 or more hours of sleep!"
                 }
                 else{
-                    sleepDebt.text = "Great that you are getting enough sleep"
+                    sleepDebt.text = "Good job! You are getting enough sleep."
                 }
             }
                 
